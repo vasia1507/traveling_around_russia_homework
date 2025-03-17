@@ -1,0 +1,25 @@
+.lead__capition {
+  margin: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding-top: 8px;
+  position: relative;
+  left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__capition {
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__capition {
+    padding-left: 16px;
+  }
+}

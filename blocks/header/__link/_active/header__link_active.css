@@ -1,0 +1,11 @@
+.header__link_active {
+  margin-left: auto;
+  padding-right: 18px;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 320px) {
+  .header__link_active {
+    padding-right: 18px;
+  }
+}

@@ -1,0 +1,10 @@
+.place__title-web {
+  display: flex;
+}
+
+@media screen and (max-width: 535px) {
+  .place__title-web {
+    flex-wrap: wrap;
+    padding-left: 16px;
+  }
+}

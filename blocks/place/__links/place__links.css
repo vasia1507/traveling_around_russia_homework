@@ -1,0 +1,20 @@
+.place__links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-width: 288px;
+  padding-left: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__links {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .place__links {
+    width: 100%;
+    padding-left: 0;
+  }
+}
